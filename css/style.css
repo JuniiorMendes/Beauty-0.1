@@ -43,3 +43,6 @@ header {
   margin: 20px;
 }
 
+.galeria img {
+  height: 400px;
+}
