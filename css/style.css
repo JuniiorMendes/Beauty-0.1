@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, ul, li, a {
+  padding: 0;
+  margin: 0;
+} 
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 120px;
+}
+
+.logo a {
+  background: tomato;
+  color: white;
+  font-size: 45px;
+  padding: 10px;
+}
+
+.menu ul{
+  display: flex;
+  padding: 10px;
+}
+
+.menu ul li a {
+  background: tomato;
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+  margin: 20px;
+}
