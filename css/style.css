@@ -24,7 +24,6 @@ header {
 }
 
 .logo a {
-  background: tomato;
   color: white;
   font-size: 45px;
   padding: 10px;
@@ -36,7 +35,6 @@ header {
 }
 
 .menu ul li a {
-  background: tomato;
   color: white;
   font-size: 22px;
   padding: 10px;
@@ -54,3 +52,36 @@ header {
 .cabelos-main img {
   height: 300px;
 }
+
+/*GALERIA*/
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+}
+
+.imgs-galeria {
+  position: relative;
+  width: 100%;
+  height: 37vw;
+}
+
+.imgs-galeria img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.imgs-galeria img.selecionado {
+  opacity: 1;
+}
+
+/*MAIN*/
+
+
+
