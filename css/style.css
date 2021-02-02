@@ -27,6 +27,7 @@ header {
   align-items: center;
   background-color: black;
   height: 120px;
+  flex-wrap: wrap;
 }
 
 .logo a {
@@ -38,11 +39,12 @@ header {
 .menu ul{
   display: flex;
   padding: 10px;
+
 }
 
 .menu ul li a {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 40px;
   font-size: 1.5em;
 }
