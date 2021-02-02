@@ -30,10 +30,11 @@ header {
 }
 
 .logo a {
-  color: white;
-  font-size: 50px;
+  color: rgb(255, 124, 64);
+  font-size: 60px;
   padding: 10px;
   font-family: 'allura';
+  text-shadow: 1px 10px 10px 10px white;
 }
 
 .menu ul{
