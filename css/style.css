@@ -31,8 +31,7 @@ header {
 
 .logo a {
   color: rgb(255, 124, 64);
-  font-size: 60px;
-  padding: 10px;
+  font-size: 45px;
   font-family: 'allura';
   text-shadow: 1px 10px 10px 10px white;
 }
@@ -44,9 +43,8 @@ header {
 
 .menu ul li a {
   color: white;
-  font-size: 22px;
-  padding: 10px;
-  margin: 20px;
+  font-size: 20px;
+  margin-left: 40px;
   font-size: 1.5em;
 }
 
