@@ -25,7 +25,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: rgb(20, 5, 5);
   height: 120px;
   flex-wrap: wrap;
 }
@@ -38,6 +38,10 @@ header {
 
 .menu ul{
   display: flex;
+}
+
+.menu {
+  position: relative;
 }
 
 .menu ul li a {
@@ -57,6 +61,20 @@ header {
 
 .cabelos-main img {
   height: 300px;
+}
+
+
+/* submenu */
+
+.submenu {
+  /* display: none; */
+  /* position: absolute; */
+  height: 500px;
+  width: 200px;
+  background-color: tomato;
+  z-index: 10;
+  margin-left: 5px;
+  text-align: center;
 }
 
 /*GALERIA*/
