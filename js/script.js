@@ -2,7 +2,7 @@ function galeria() {
   let time = 5000,
     ImgIndex = 0,
     imagens = document.querySelectorAll('.imgs-galeria img')
-  max = imagens.length
+    max = imagens.length
   imagens[ImgIndex].classList.add('selecionado')
 
   function proximaImg() {
