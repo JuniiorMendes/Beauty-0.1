@@ -2,12 +2,9 @@
 
 * {
   box-sizing: border-box;
-}
-
-html, body, ul, li, a {
   padding: 0;
   margin: 0;
-} 
+}
 
 body {
   background-color: rgb(202, 195, 195);
@@ -36,11 +33,16 @@ header {
   font-family: 'allura';
 }
 
+.menu a:hover {
+  color: rgb(255, 109, 64);
+  transition: 0.5s;
+}
+
 .menu ul{
   display: flex;
 }
 
-.menu {
+.relative {
   position: relative;
 }
 
@@ -66,15 +68,62 @@ header {
 
 /* submenu */
 
+.menu ul li{
+  margin: 20px;
+  padding: 18px;
+} 
+
+.produtos, .cortes, .contato {
+  position: relative;
+  cursor: pointer;
+
+}
+
+@keyframes dropdown {
+  0% {
+    margin-top: -30px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+
 .submenu {
-  /* display: none; */
-  /* position: absolute; */
-  height: 500px;
-  width: 200px;
-  background-color: tomato;
-  z-index: 10;
-  margin-left: 5px;
+  display: none !important;
+  cursor: pointer;
+  position: absolute;
+  height: 500%;
+  width: 120%;
+  background-color: rgb(20, 5, 5);
+  z-index: 1;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.submenu a {
+  color: #fff !important;
   text-align: center;
+  margin: 0px 25px 0px 0px;
+  margin-left: 25px !important;
+  font-size: 20px !important;
+  padding: 10px;
+}
+
+.produtos:hover .submenu {
+  animation: dropdown 0.5s;
+  display: flex !important;
+}
+
+.cortes:hover .submenu {
+  animation: dropdown 0.5s;
+  display: flex !important;
+}
+
+.submenu a:hover {
+  color: rgb(255, 109, 64) !important;
 }
 
 /*GALERIA*/
@@ -168,7 +217,7 @@ footer {
 }
 
 footer p {
-  margin-bottom: 0px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -185,7 +234,8 @@ footer ul {
 }
 
 footer ul li img {
-  margin: 0px 20px 0px 20px;
-  padding: 10px;
+  height: 100%;
+  margin: 0px 20px 10px 20px;
+  padding: 0px;
   height: 70px;
 }
