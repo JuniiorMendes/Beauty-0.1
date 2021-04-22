@@ -18,6 +18,12 @@ li {
   list-style: none;
 }
 
+/* header */
+
+.hamburguer {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -40,10 +46,6 @@ header {
 
 .menu ul{
   display: flex;
-}
-
-.relative {
-  position: relative;
 }
 
 .menu ul li a {
@@ -84,7 +86,7 @@ header {
     margin-top: -30px;
   }
   100% {
-    margin-top: 20px;
+    margin-top: 22px;
   }
 }
 
@@ -238,4 +240,52 @@ footer ul li img {
   margin: 0px 20px 10px 20px;
   padding: 0px;
   height: 70px;
+}
+
+@media (max-width: 736px) {
+  .menu {
+    display: none;
+  }
+
+  main h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    lett
+  }
+}
+
+@media (max-width: 360px) {
+  main h2{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    lett
+  }
+
+  main p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .logo a {
+    color: rgb(255, 124, 64);
+    font-size:20px;
+    font-family: 'allura';
+
+  }
+
+  logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer {
+
+  }
+}
 }
