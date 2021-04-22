@@ -180,7 +180,7 @@ main p {
   display: flex;
   align-items: center;
   font-size: 20px;
-  margin: 30px;
+  margin: 0px 100px 50px 100px;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -334,8 +334,7 @@ footer ul li img {
       display: flex;
       align-items: center;
       font-size: 16px;
-      margin-top: 0px;
-      margin-bottom: 60px;
+      margin: 0px 30px 80px 30px;
       text-align: center;
     }
 
