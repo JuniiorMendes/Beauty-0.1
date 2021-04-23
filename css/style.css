@@ -178,7 +178,7 @@ main h2 {
 
 main p {
   display: flex;
-  align-items: center;
+  align-items: justify;
   font-size: 20px;
   margin: 0px 100px 50px 100px;
   text-align: center;
@@ -321,6 +321,8 @@ footer ul li img {
       font-size: 50px !important;
     } 
 
+    /* main */
+
     main h2{
       font-size: 36px;
       font-weight: bold;
@@ -332,7 +334,7 @@ footer ul li img {
 
     main p {
       display: flex;
-      align-items: center;
+      align-items: justify;
       font-size: 16px;
       margin: 0px 30px 80px 30px;
       text-align: center;
