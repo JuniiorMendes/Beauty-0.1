@@ -27,3 +27,15 @@ function galeria() {
 }
 
 galeria()
+
+function moverMenuRes() {
+  let btnCheck = document.querySelector('#checkbox-menu')
+  let menu = document.querySelector('.menu ul')
+
+  btnCheck.addEventListener('click', () => {
+    menu.classList.toggle('active')
+  })
+}
+
+moverMenuRes()
+
